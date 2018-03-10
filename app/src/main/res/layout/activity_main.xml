@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LemonChiffon"
+    tools:context="com.tasdemirmustafa.rotamolutur.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/ways2"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="@string/edittext_eposta_adresiniz"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="@string/edittext_sifreniz"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="@string/edittext_adSoyad"
+            android:textAlignment="center"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="5dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_kayitOl"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_girisYap"
+                style=""
+                android:layout_marginLeft="5dp"
+                />
+
+        </LinearLayout>
+
+        <Switch
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_KayitOlmakİcinTikla"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Yada Google+ İle Giriş Yap -"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/googleButton">
+        </com.google.android.gms.common.SignInButton>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

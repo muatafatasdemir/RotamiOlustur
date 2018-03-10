@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="LemonChiffon">#FFFACD</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="white">#FFffff</color>
+    <color name="green">#006600</color>
+    <color name="Brown">#A52A2A</color>
+    <color name="PaleTuqouise">#AFEEEE</color>
+    <color name="gri">#ababab</color>
+    <color name="black">#000</color>
+</resources>

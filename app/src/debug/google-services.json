@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "490127028453",
+    "firebase_url": "https://rota-olustur.firebaseio.com",
+    "project_id": "rota-olustur",
+    "storage_bucket": "rota-olustur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490127028453:android:caf5a0e25aa607de",
+        "android_client_info": {
+          "package_name": "com.tasdemirmustafa.rotamolutur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490127028453-jnugsss2s5hl8ibbupi76kap4114v622.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tasdemirmustafa.rotamolutur",
+            "certificate_hash": "55e57fda22972fea0362669b0a3bc674c792f323"
+          }
+        },
+        {
+          "client_id": "490127028453-d2cs064jma2560nmsf8pdivm2ie4q9b4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdpXqOKXjc8n5h9NxpMfqoTJor82tnCqc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490127028453-d2cs064jma2560nmsf8pdivm2ie4q9b4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

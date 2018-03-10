@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RotamıOluştur</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="edittext_eposta_adresiniz">E-posta Adresiniz</string>
+    <string name="edittext_sifreniz">Şifreniz</string>
+    <string name="edittext_adSoyad">Adınız ve Soyadınız</string>
+    <string name="button_kayitOl">Kayıt Ol</string>
+    <string name="button_girisYap">Giriş Yap</string>
+    <string name="switch_KayitOlmakİcinTikla">Kayıt Olmak İçin Tıklayınız  >>>  </string>
+    <string name="switch_GirisYapmakİcinTikla">Giriş Yapmak İçin Tıklayınız  >>>  </string>
+    <string name="title_activity_maps2">Map</string>
+</resources>
