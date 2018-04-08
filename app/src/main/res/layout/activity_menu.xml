@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@color/LemonChiffon"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/haritaAc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haritayı Aç / Liste Oluştur"/>
+
+            <Button
+                android:id="@+id/onerdigimYerler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Önerdiğim Yerler"/>
+
+            <Button
+                android:id="@+id/kayitliListelerim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kayıtlı Listelerim"/>
+
+            <Button
+                android:id="@+id/onerilenRotalar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sizin İçin Önerilen Rotalar"/>
+
+            <Button
+                android:id="@+id/puanVer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uygulamaya Puan Ver"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

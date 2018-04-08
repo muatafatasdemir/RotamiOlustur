@@ -31,7 +31,11 @@ dependencies {
     compile 'com.google.firebase:firebase-auth:11.8.0'
     compile 'com.google.android.gms:play-services-auth:11.8.0'
 
+    //for LocationRequest
+    compile "com.google.android.gms:play-services-location:11.8.0"
 
+    //for PlaceAutoCompleteFragment
+    compile 'com.google.android.gms:play-services-places:11.8.0'
 }
 
 

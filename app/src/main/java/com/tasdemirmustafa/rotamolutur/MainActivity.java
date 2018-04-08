@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ref = FirebaseDatabase.getInstance().getReference();
 
         if(mAuth.getCurrentUser() != null){
-            Intent intent = new Intent(this,MapsActivity.class);
+            Intent intent = new Intent(this,MenuActivity.class);
             startActivity(intent);
             finish();
         }
